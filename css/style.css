@@ -47,7 +47,7 @@ th, td{
 	font-size: 20px;
 }
 
-th{
+th {
 	text-align: left;
 }
 
@@ -75,10 +75,10 @@ img{
 
 .bg-red {
 	background-color: red!important;
-	transition: background-color .2s;
+	transition: background-color .2s ease-in-out; 
 }
 
-.button {
+/* .button {
 	display: block;
 	border-radius: 5%;
 	border: none;
@@ -87,9 +87,24 @@ img{
 	border-radius: 7%;
 	background-color: red;
 	transition: background-color .2s;
-}
+} */
 
-.button:hover {
+/* .button:hover {
 	background-color: rgb(197, 0, 0);
 	transition: background-color .2s;
+} */
+
+.btn-red {
+	border: 2px solid red;
+	background-color: white;
+	color: red;
 }
+
+.btn-red:hover {
+	background: #ccc;
+	transition: background-color .2s ease-in-out;
+}
+
+/* .btn-red {
+	color: white;
+} */

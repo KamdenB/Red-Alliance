@@ -68,3 +68,8 @@ function init() {
 	//	refresh()
 	//}, 1000);
 }
+
+$(".searchSubmit").click((e) => {
+	e.preventDefault();
+	$(".nav-search").prop('action', `teams.php?team=${$(".teamSearch").val()}`).submit();
+})

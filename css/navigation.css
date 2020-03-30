@@ -27,12 +27,12 @@
     padding-left: 3px;
     margin: 0;
     background-color: inherit;
-    transition: background-color .2s;
+    transition: background-color .4s ease-in-out;
 }
 
 .nav li.hover:hover {
     background-color: rgb(197, 0, 0);
-    transition: background-color .2s;
+    transition: background-color .4s ease-in-out;
 }
 
 .nav-title,a {
@@ -77,12 +77,12 @@
     background: inherit;
     padding: 0 10px;
     border-radius: 4px;
-    transition: background-color .2s;
+    transition: background-color .2s ease-in-out;
 }
 
 .nav-search button:hover {
     background-color: rgb(197, 0, 0);
-    transition: background-color .2s;
+    transition: background-color .2s ease-in-out;
 }
 
 .nav-search input[type=search]{

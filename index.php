@@ -22,9 +22,9 @@
 			</div>
 			<div class="nav-right">
 				<li class="nav-item">
-					<form action="" class="nav-search">
-						<button type="submit">Search</button>
-						<input type="search" name="" id="">
+					<form autocomplete="off" method="POST" action="" class="nav-search">
+						<button class="searchSubmit">Search</button>
+						<input type="search" class="teamSearch" name="" id="">
 					</form>
 				</li>
 			</div>
@@ -32,7 +32,7 @@
 	</nav>
 	<div id="container">
 		<div id="content">
-			<button type="button" class="button" onclick="init()">Refresh</button>
+			<button type="button" class="btn btn-red" onclick="init()">Refresh</button>
 			<table style="width:100%">
 				<tr>
 					<th>Rank</th>
